@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Junktion</title>
+    <style>
+        /* CSS to set the background image */
+        body {
+            background-image: url('https://www.travelandleisure.com/thmb/FkodkPoU0Flw6VQWR-b0tQayq-4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/uk-france-night-2016-EARTH1116-2c03d786e8824e13ad10758aa8bd832f.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+            background-size: cover; /* This will cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>JUNKTION TEAM</h1>
+    </div>
+    <body>
+        <h1>Enter Your Location</h1>
+        <form id="locationForm">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+            <button type="submit">Submit</button>
+        </form>
+        
+        <h2>Your Location:</h2>
+        <p id="displayLocation"></p>
+    
+        <script>
+            document.getElementById("locationForm").addEventListener("submit", function(event) {
+                event.preventDefault();
+                const userLocation = document.getElementById("location").value;
+                document.getElementById("displayLocation").textContent = `You entered: ${userLocation}`;
+            });
+        </script>
+    </body>
+</body>
+</html>
