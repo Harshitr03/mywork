@@ -48,7 +48,7 @@
                 font-size: 1.5rem;
                 width: 300px;
                 height: 80px;
-                line-height: 50px;
+                line-height: 80px;
                 text-align: center;
                 background: linear-gradient(90deg, #085173, #7e0449, #17f004);
                 border-radius: 5px;
