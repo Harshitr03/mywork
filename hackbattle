@@ -4,9 +4,12 @@
 <head>
     <title>Junktion</title>
     <style>
+        
+
         /* CSS to set the background image */
         body {
-            background-image: url('https://www.travelandleisure.com/thmb/FkodkPoU0Flw6VQWR-b0tQayq-4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/uk-france-night-2016-EARTH1116-2c03d786e8824e13ad10758aa8bd832f.jpg');
+            background-image: linear-gradient(90deg, #03364d, #7e0449,#f36906 );
+            
             /* Replace 'your-image.jpg' with the path to your image */
             background-size: cover;
             /* This will cover the entire viewport */
@@ -22,94 +25,91 @@
             color: white;
         }
 
-        /* CSS to change the text color of "Your Location" */
-        .displayLocation {
-            text-align: center;
-            color: white;
-        }
-
-        .loc {
-            text-align: center;
-            color: white;
-        }
-
-        .class {
-            text-align: center;
-            color: white;
-        }
-
-        .my-button {
-            display: inline-block;
-            margin-top: 5px;
-            padding: 5px;
-            color: #fff;
-            font-size: 1rem;
-            width: 65px;
-            height: 30px;
+        .h1 {
+            margin: 50px;
+            font-size: 20px;
+            font-weight: 100px;
             line-height: 0px;
-            text-align: center;
-            background: linear-gradient(90deg, #04618b, #f441a5, #ffeb3b, #03a9f4);
-            border-radius: 5px;
-            position: relative;
-            background-size: 400%;
-            transition: transform 0.3s ease;
-        }
-
-        .my-button:hover {
-            transform: scale(1.1);
-        }
-
-        .name {
             color: white;
-        }
-
-        .link {
-            color: white;
-        }
-
-        .A{
-            text-align: center;
         }
     </style>
 </head>
 
 <body>
     <div class="content">
-        <h1>JUNKTION TEAM</h1>
+        <h1  style="font-family:verdana">JUNKTION TEAM</h1>
     </div>
 
     <body>
-        <hl class="loc">.</h1>
-            <form id="locationForm">
-                <label for="location">Enter your Location:</label>
-                <input type="text" id="location" name="location" required>
-                <button class="my-button" type="submit">Submit</button>
-            </form>
-            <p id="displayLocation"></p>
-            <script>
-                document.getElementById("locationForm").addEventListener("submit", function (event) {
-                    event.preventDefault();
-                    const userLocation = document.getElementById("location").value;
-                    document.getElementById("displayLocation").textContent = `You entered: ${userLocation}`
-                });
-            </script>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <hr3 class="name"><b>Team Members</b></hr3>
+        <style>
+            .my-button {
+                
+                margin-top:20px;
+                display: inline-block;
+                padding: 5px;
+                color: #fff;
+                font-size: 1.5rem;
+                width: 300px;
+                height: 80px;
+                line-height: 50px;
+                text-align: center;
+                background: linear-gradient(90deg, #085173, #7e0449, #17f004);
+                border-radius: 5px;
+                position: relative;
+                background-size: 400%;
+                transition: transform 0.3s ease;
+            }
+
+            .my-button:hover {
+                transform: scale(1.1);
+            }
+        </style>
+        <form id="locationForm">
+            <h1 class="h1" style="font-family:verdana">Select Your Location</h1>
+            <img src="https://www.pngplay.com/wp-content/uploads/8/World-Earth-Transparent-File.png" align="right">
+            <img src="" align="right">
+
+
+            <button class="my-button" type="submit">Andhra Pradesh</button><t><t>
+            <button class="my-button" type="submit">Arunachal Pradesh</button><t><t>
+            <button class="my-button" type="submit">Assam</button><br>
+            <button class="my-button" type="submit">Bihar</button><t><t>
+            <button class="my-button" type="submit">Chhatisgarh</button><t><t>
+            <button class="my-button" type="submit">Goa</button><br>
+            <button class="my-button" type="submit">Gujarat</button><t><t>
+            <button class="my-button" type="submit">Haryana</button><t><t>
+            <button class="my-button" type="submit">Himachal Pradesh</button><br>
+            <button class="my-button" type="submit">Jharkhand</button><t><t>
+            <button class="my-button" type="submit">Karnatka</button><t><t>
+            <button class="my-button" type="submit">Kerela</button><br>
+            <button class="my-button" type="submit">Madhya Pradesh</button><t><t>
+            <button class="my-button" type="submit">Maharashtra</button><t><t>
+            <button class="my-button" type="submit">Manipur</button><br>
+            <button class="my-button" type="submit">Mizoram</button><t><t>
+            <button class="my-button" type="submit">Nagaland</button><t><t>
+            <button class="my-button" type="submit">Odisha</button><br>
+            <button class="my-button" type="submit">Panjab</button><t><t>
+            <button class="my-button" type="submit">Rajasthan</button><t><t>
+            <button class="my-button" type="submit">Sikkim</button><br>
+            <button class="my-button" type="submit">Tamil Nadu</button><t><t>
+            <button class="my-button" type="submit">Telangana</button><t><t>
+            <button class="my-button" type="submit">Tripura</button><br>
+            <button class="my-button" type="submit">Uttar Pradesh</button><t><t>
+            <button class="my-button" type="submit">Uttarakhand</button><t><t>
+            <button class="my-button" type="submit">West Bengal</button><br>
+ 
+        </form>
+
+        
+        </script>
+        <br><br><br><br><br><br><br><br><br><br>
+        <hr3 style="font-family:verdana; color:white"><b>Team Members</b></hr3>
             <ol style="text-align: left;">
-                <li><small>Harshit Rawat</small></li>
-                <li><small>Aryan Chauhan</small></li>
-                <li><small>Nehang Limdi</small></li>
-                <li><small>Harsh Ambastha</small></li>
+                <li style="font-family:verdana; color:white" ><small>Harshit Rawat</small></li>
+                <li style="font-family:verdana; color:white"><small>Aryan Chauhan</small></li>
+                <li style="font-family:verdana; color:white"><small>Nehang Limdi</small></li>
+                <li style="font-family:verdana; color:white"><small>Harsh Ambastha</small></li>
             </ol>
-            <div class="A">
-            <a href="https://www.google.com/" target="_blank" class="link">Next Page</a>
-            </div>
     </body>
 </body>
 
