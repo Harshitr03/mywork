@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Junktion</title>
     <style>
         /* CSS to set the background image */
         body {
-            background-image: url('https://www.travelandleisure.com/thmb/FkodkPoU0Flw6VQWR-b0tQayq-4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/uk-france-night-2016-EARTH1116-2c03d786e8824e13ad10758aa8bd832f.jpg'); /* Replace 'your-image.jpg' with the path to your image */
-            background-size: cover; /* This will cover the entire viewport */
-            background-repeat: no-repeat; /* Prevent the image from repeating */
-            background-attachment: fixed; /* Keeps the background fixed while scrolling */
+            background-image: url('https://www.travelandleisure.com/thmb/FkodkPoU0Flw6VQWR-b0tQayq-4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/uk-france-night-2016-EARTH1116-2c03d786e8824e13ad10758aa8bd832f.jpg');
+            /* Replace 'your-image.jpg' with the path to your image */
+            background-size: cover;
+            /* This will cover the entire viewport */
+            background-repeat: no-repeat;
+            /* Prevent the image from repeating */
+            background-attachment: fixed;
+            /* Keeps the background fixed while scrolling */
         }
 
         .content {
@@ -16,46 +21,80 @@
             padding: 20px;
             color: white;
         }
+
+        /* CSS to change the text color of "Your Location" */
+        .displayLocation {
+            text-align: center;
+            color: white;
+        }
+
+        .loc {
+            text-align: center;
+            color: white;
+        }
+
+        .class{
+            text-align: center;
+            color: white;
+        }
+        .my-button {
+                display: inline-block;
+                margin-top: 5px;
+                padding: 5px;
+                color: #fff;
+                font-size: 1.5rem;
+                width: 100px;
+                height: 50px;
+                line-height: 40px;
+                text-align: center;
+                background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+                border-radius: 5px;
+                position: relative;
+                background-size: 400%;
+                transition: transform 0.3s ease;
+            }
+
+            .my-button:hover {
+                transform: scale(1.1);
+            }
+
+            .name{
+                text-align: center;
+                color: white;
+            }
     </style>
 </head>
+
 <body>
     <div class="content">
         <h1>JUNKTION TEAM</h1>
     </div>
+
     <body>
-        <style>
-            /* Basic button styles */
-            .my-button {
-                display: inline-block;
-                padding: 10px 20px;
-                background-color: #007bff;
-                color: #fff;
-                text-decoration: none;
-                transition: transform 0.3s ease;
-            }
-    
-            /* Increase size on hover */
-            .my-button:hover {
-                transform: scale(1.2);
-            }
-        </style>
-        <h1>Enter Your Location</h1>
-        <form id="locationForm">
-            <label for="location">Location:</label>
-            <input type="text" id="location" name="location" required>
-            <button class="my-button" type="submit">Submit</button>
-        </form>
-        
-        <h2>Your Location:</h2>
-        <p id="displayLocation"></p>
-    
-        <script>
-            document.getElementById("locationForm").addEventListener("submit", function(event) {
-                event.preventDefault();
-                const userLocation = document.getElementById("location").value;
-                document.getElementById("displayLocation").textContent = `You entered: ${userLocation}`;
-            });
-        </script>
+        <hl class="loc">Enter Your Location</h1>
+            <form id="locationForm">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                <button class="my-button" type="submit">Submit</button>
+            </form>
+            <p id="displayLocation"></p>
+            <script>
+                document.getElementById("locationForm").addEventListener("submit", function (event) {
+                    event.preventDefault();
+                    const userLocation = document.getElementById("location").value;
+                    document.getElementById("displayLocation").textContent = `You entered: ${userLocation}`
+                });
+            </script>
+
+            <hr3 class="name"><b>Team Members</b></hr3>
+            <ol>
+                <li><small>Harshit Rawat</small></li>
+                <li><small>Aryan Chauhan</small></li>
+                <li><small>Nehang Limdi</small></li>
+                <li><small>Harsh</small></li>
+            </ol>
+            <a href="https://www.google.com/" target="_blank">Next Page</a>
     </body>
 </body>
+
 </html>
