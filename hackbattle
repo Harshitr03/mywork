@@ -2,19 +2,15 @@
 <html>
 
 <head>
+    <!-- Title -->
     <title>Junktion</title>
     <style>
-        
-
-        /* CSS to set the background image */
         body {
-            background-image: linear-gradient(90deg, #03364d, #7e0449,#f36906 );
-            
-            /* Replace 'your-image.jpg' with the path to your image */
+            /* adds background as gradient*/
+            background-image: linear-gradient(90deg, #03364d, #7e0449, #f36906);
             background-size: cover;
             /* This will cover the entire viewport */
             background-repeat: no-repeat;
-            /* Prevent the image from repeating */
             background-attachment: fixed;
             /* Keeps the background fixed while scrolling */
         }
@@ -37,14 +33,15 @@
 
 <body>
     <div class="content">
-        <h1  style="font-family:verdana">JUNKTION TEAM</h1>
+        <!-- Heading -->
+        <h1 style="font-family: verdana">TRAVELLER'S GUIDE</h1>
     </div>
 
     <body>
         <style>
+            /* button settings */
             .my-button {
-                
-                margin-top:20px;
+                margin-top: 20px;
                 display: inline-block;
                 padding: 5px;
                 color: #fff;
@@ -59,57 +56,61 @@
                 background-size: 400%;
                 transition: transform 0.3s ease;
             }
-
+            /* button animation */
             .my-button:hover {
                 transform: scale(1.1);
             }
         </style>
+        <br><br><br><br><br>    
+        
         <form id="locationForm">
-            <h1 class="h1" style="font-family:verdana">Select Your Location</h1>
+            <h1 class="h1" style="font-family: verdana">Select Your Location</h1>
+            <!-- Image -->
             <img src="https://www.pngplay.com/wp-content/uploads/8/World-Earth-Transparent-File.png" align="right">
             <img src="" align="right">
 
-
-            <button class="my-button" type="submit">Andhra Pradesh</button><t><t>
-            <button class="my-button" type="submit">Arunachal Pradesh</button><t><t>
-            <button class="my-button" type="submit">Assam</button><br>
-            <button class="my-button" type="submit">Bihar</button><t><t>
-            <button class="my-button" type="submit">Chhatisgarh</button><t><t>
-            <button class="my-button" type="submit">Goa</button><br>
-            <button class="my-button" type="submit">Gujarat</button><t><t>
-            <button class="my-button" type="submit">Haryana</button><t><t>
-            <button class="my-button" type="submit">Himachal Pradesh</button><br>
-            <button class="my-button" type="submit">Jharkhand</button><t><t>
-            <button class="my-button" type="submit">Karnatka</button><t><t>
-            <button class="my-button" type="submit">Kerela</button><br>
-            <button class="my-button" type="submit">Madhya Pradesh</button><t><t>
-            <button class="my-button" type="submit">Maharashtra</button><t><t>
-            <button class="my-button" type="submit">Manipur</button><br>
-            <button class="my-button" type="submit">Mizoram</button><t><t>
-            <button class="my-button" type="submit">Nagaland</button><t><t>
-            <button class="my-button" type="submit">Odisha</button><br>
-            <button class="my-button" type="submit">Panjab</button><t><t>
-            <button class="my-button" type="submit">Rajasthan</button><t><t>
-            <button class="my-button" type="submit">Sikkim</button><br>
-            <button class="my-button" type="submit">Tamil Nadu</button><t><t>
-            <button class="my-button" type="submit">Telangana</button><t><t>
-            <button class="my-button" type="submit">Tripura</button><br>
-            <button class="my-button" type="submit">Uttar Pradesh</button><t><t>
-            <button class="my-button" type="submit">Uttarakhand</button><t><t>
-            <button class="my-button" type="submit">West Bengal</button><br>
- 
+            <!-- Add Google search links for each state -->
+            <a href="https://www.google.com/search?q=Andhra+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Andhra Pradesh</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Arunachal Pradesh</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Assam</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Bihar</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Chhattisgarh</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Goa</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Gujrat</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Harayana</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Himachal Pradesh</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Jharkhand</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Karnatka</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Kerela</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Madhya Pradesh</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Maharashtra</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Manipur</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Mizoram</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button" style="text-decoration:none;font-family: verdana">Nagaland</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Odisha</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Punjab</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Rajasthan</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Sikkim</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Tamil Nadu</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Telangana</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Tripura</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Uttar Pradesh</a><br>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">Uttarakhand</a>
+            <a href="https://www.google.com/search?q=Arunachal+Pradesh" target="_blank" class="my-button"style="text-decoration:none;font-family: verdana">West Bengal</a>
+           
+            
         </form>
 
-        
-        </script>
-        <br><br><br><br><br><br><br><br><br><br>
-        <hr3 style="font-family:verdana; color:white"><b>Team Members</b></hr3>
-            <ol style="text-align: left;">
-                <li style="font-family:verdana; color:white" ><small>Harshit Rawat</small></li>
-                <li style="font-family:verdana; color:white"><small>Aryan Chauhan</small></li>
-                <li style="font-family:verdana; color:white"><small>Nehang Limdi</small></li>
-                <li style="font-family:verdana; color:white"><small>Harsh Ambastha</small></li>
-            </ol>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <!-- Team Name and the name of members added -->
+        <hr3 style="font-family: verdana; color: white"><b>JUNKTION</b></hr3><t>
+        <hr3 style="font-family: verdana; color: white"><b>TEAM MEMBERS</b></hr3>
+        <ol style="text-align: left;">
+            <li style="font-family: verdana; color: white"><small>Harshit Rawat</small></li>
+            <li style="font-family: verdana; color: white"><small>Aryan Chauhan</small></li>
+            <li style="font-family: verdana; color: white"><small>Nehang Limdi</small></li>
+            <li style="font-family: verdana; color: white"><small>Harsh Ambastha</small></li>
+        </ol>
     </body>
 </body>
 
