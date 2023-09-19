@@ -33,35 +33,43 @@
             color: white;
         }
 
-        .class{
+        .class {
             text-align: center;
             color: white;
         }
+
         .my-button {
-                display: inline-block;
-                margin-top: 5px;
-                padding: 5px;
-                color: #fff;
-                font-size: 1.5rem;
-                width: 100px;
-                height: 50px;
-                line-height: 40px;
-                text-align: center;
-                background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-                border-radius: 5px;
-                position: relative;
-                background-size: 400%;
-                transition: transform 0.3s ease;
-            }
+            display: inline-block;
+            margin-top: 5px;
+            padding: 5px;
+            color: #fff;
+            font-size: 1.5rem;
+            width: 100px;
+            height: 50px;
+            line-height: 40px;
+            text-align: center;
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            border-radius: 5px;
+            position: relative;
+            background-size: 400%;
+            transition: transform 0.3s ease;
+        }
 
-            .my-button:hover {
-                transform: scale(1.1);
-            }
+        .my-button:hover {
+            transform: scale(1.1);
+        }
 
-            .name{
-                text-align: center;
-                color: white;
-            }
+        .name {
+            color: white;
+        }
+
+        .link {
+            color: white;
+        }
+
+        .A{
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -71,9 +79,9 @@
     </div>
 
     <body>
-        <hl class="loc">Enter Your Location</h1>
+        <hl class="loc">.</h1>
             <form id="locationForm">
-                <label for="location">Location:</label>
+                <label for="location">Enter your Location:</label>
                 <input type="text" id="location" name="location" required>
                 <button class="my-button" type="submit">Submit</button>
             </form>
@@ -85,15 +93,23 @@
                     document.getElementById("displayLocation").textContent = `You entered: ${userLocation}`
                 });
             </script>
-
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <hr3 class="name"><b>Team Members</b></hr3>
-            <ol>
+            <ol style="text-align: left;">
                 <li><small>Harshit Rawat</small></li>
                 <li><small>Aryan Chauhan</small></li>
                 <li><small>Nehang Limdi</small></li>
                 <li><small>Harsh</small></li>
             </ol>
-            <a href="https://www.google.com/" target="_blank">Next Page</a>
+            <div class="A">
+            <a href="https://www.google.com/" target="_blank" class="link">Next Page</a>
+            </div>
     </body>
 </body>
 
